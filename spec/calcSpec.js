@@ -2,11 +2,11 @@
 
 describe("add ", function(){
     it("should add two numbers that return 0", function(){
-        let result = addMore(0, 0);
+        let result = add(0, 0);
         expect(result).toBe(0);
     });
     it("should add negative numbers that return -2", function(){
-        let result = addMore(-1,-1);
+        let result = add(-1,-1);
         expect(result).toBe(-2);
         
     });
@@ -25,7 +25,7 @@ describe("add ", function(){
 
 describe("multiply",function(){
     it("should multiply two numbers that returns 2", function(){
-        let result = multiplyUnlimited(1,2);
+        let result = multiply(1,2);
         expect(result).toBe(2);
     });
     it("should multiply more than two numbers that returns 24",function(){
