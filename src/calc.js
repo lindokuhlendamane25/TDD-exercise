@@ -13,10 +13,10 @@ function addMore(num1 , num2, num3){
 
 //MULTIPLYING 2 OR MORE NUMBERS
 function multiplyUnlimited(num1, num2, num3){
-    var sum = 1;
+    var product = 1;
     
     for(var a = 0; a< arguments.length; a++){
-        sum*= arguments[a];
+        product*= arguments[a];
     }
-    return sum;
+    return product;
 }
