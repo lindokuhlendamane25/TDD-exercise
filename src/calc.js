@@ -1,6 +1,17 @@
 
+//adds two numbers
+function add(num1, num2){
+    return num1 + num2;
+}
+
+
+//multiplies two numbers
+function multiply(num1, num2){
+    return num1 * num2;
+}
+
 //ADDING 2 OR MORE NUMBERS
-function addMore(num1 , num2, num3){
+function addMore(){
     
     var sum = 0;
     
@@ -12,7 +23,7 @@ function addMore(num1 , num2, num3){
 }
 
 //MULTIPLYING 2 OR MORE NUMBERS
-function multiplyUnlimited(num1, num2, num3){
+function multiplyUnlimited(){
     var product = 1;
     
     for(var a = 0; a< arguments.length; a++){
